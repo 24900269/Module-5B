@@ -17,8 +17,21 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+import pandas as pd
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age': [24, 27, 22],
+    'City': ['New York', 'Los Angeles', 'Chicago']
+}
+custom_index = ['A1', 'B2', 'C3']
+df = pd.DataFrame(data, index=custom_index)
+print("DataFrame with Custom Index Labels:")
+print(df)
+```
 
 ## Output
+![442483970-46febcfd-ff18-4c5f-82bd-3da2072d98fa](https://github.com/user-attachments/assets/05de96ed-0e80-4a9c-9d85-b4f19d5b3203)
 
 ## Result
+Thus,the program has been executed successfully.
